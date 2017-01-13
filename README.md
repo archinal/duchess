@@ -2,6 +2,8 @@
 
 This is a C++ implementation of the game [Duchess](https://www.cse.unsw.edu.au:443/~blair/duchess/).
 
+This is the result of an Artificial Intelligence/Machine Learning thesis completed by William Archinal under the supervision of Dr Alan Blair at UNSW in 2016 as part of the requirements of a Bachelor of Engineering (Software Engineering). The paper produced as a result of this work is available in the file [paper.pdf](https://github.com/archinal/duchess/blob/master/paper.pdf) in this repository.
+
 This project includes:
 
 - A library to represent and manage the game (`duchess/`)

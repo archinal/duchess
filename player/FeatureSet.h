@@ -1,0 +1,15 @@
+#ifndef DUCHESS_CPP_FEATURESET_H
+#define DUCHESS_CPP_FEATURESET_H
+
+enum class FeatureSet {
+    MATERIAL, // Material weights and check/checkmate and pawn/distance and bias
+    MATERIAL_ATTDEF,
+    MATERIAL_ATTDEF_PIECESQUARE,
+    MATERIAL_NAIVEATTDEF,
+    MATERIAL_NAIVEATTDEF_PIECESQUARE,
+    MATERIAL_ATTDEF_KINGDIST,
+    MATERIAL_ATTDEF_KINGDIST_PIECE_SQUARE,
+    ALL // Includes piece-distance
+};
+
+#endif //DUCHESS_CPP_FEATURESET_H

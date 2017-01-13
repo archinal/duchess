@@ -1,0 +1,12 @@
+#ifndef DUCHESS_CPP_HEURISTIC_H
+#define DUCHESS_CPP_HEURISTIC_H
+
+enum class Heuristic {
+    NONE,
+    RANDOM,
+    KILLER_MOVE,
+    BEST_REPLY,
+    HISTORY
+};
+
+#endif //DUCHESS_CPP_HEURISTIC_H

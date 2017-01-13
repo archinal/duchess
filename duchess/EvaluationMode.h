@@ -1,0 +1,9 @@
+#ifndef DUCHESS_CPP_EVALUATIONMODE_H
+#define DUCHESS_CPP_EVALUATIONMODE_H
+
+enum class EvaluationMode {
+    CUMULATIVE,
+    DE_NOVO
+};
+
+#endif //DUCHESS_CPP_EVALUATIONMODE_H
